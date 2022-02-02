@@ -1,5 +1,13 @@
 # test-essays
 
+Tests are not a free resource. It is not possible to say a percentage of correct code coverage for a system, when you force people to write tests to achieve a goal you have the following expense:
+
+Time spent writing test that does not add value
++
+Test maintenance time spent during the system lifecycle (poorly written test generates frequent maintenance and the more tests, mainly unnecessary, the greater the chance of having tests coupled to the code), this avoids refactoring and continuous improvement (because tests break when refactoring rather than only breaking when there is a change in behavior).
+
+It's better to teach people how to test intelligently, spending little resources and earning a lot of reward (in this case it's controlling the entropy of the software during its lifecycle).
+
 Test exists to reduce entropy.
 
 Tests in the application domain are generally the ones that create the most value.
