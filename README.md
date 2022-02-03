@@ -1,5 +1,9 @@
 # test-essays
 
+Test coverage targets are bad because:
+1 - Unit testing is not "the more the better"
+2 - Unnecessary and poorly written tests generate unnecessary cost
+
 Tests are not a free resource. It is not possible to say a percentage of correct code coverage for a system, when you force people to write tests to achieve a goal you have the following expense:
 
 Time spent writing test that does not add value
