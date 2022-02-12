@@ -1,5 +1,15 @@
 # test-essays
 
+Four good attributes:
+1 - Protect against regression (mutually exclusive) (negotiable)
+2 - Resistance to refactoring (mutually exclusive) (non-negotiable)
+3 - Fast feedback (mutually exclusive) (negotiable)
+4 - Maintainability
+
+Value of tests = value of each 4 attributes.
+If one attribute goes to zero, the total is zero.
+You can maximize only 2 of the 3 because 1, 2 and 3 are mutually exclusive
+
 Test coverage targets are bad because:
 1 - Unit testing is not "the more the better"
 2 - Unnecessary and poorly written tests generate unnecessary cost
