@@ -27,3 +27,5 @@ Test is for testing behavior, refactoring doesn't change behavior, so tests shou
 Refactoring is extremely underrated and very important, without good testing we will not have continuous refactoring.
 
 You might think that testing mediocre is at least doing something, but bad test suites in extreme cases can be worse than not testing at all. We must strive for excellence in testing and not accept poor quality.
+
+If you can't trace a test to a business requirement - remove it, except in utility code with high algorithmic complexity.
